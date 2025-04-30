@@ -1,0 +1,26 @@
+.hdd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.hdd-t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    width: 600px;
+}
+
+.hdd-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hdd-title{
+    display: flex;
+    justify-content: center;
+}
