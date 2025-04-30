@@ -1,3 +1,7 @@
+.header{
+    height: 800px;
+}
+
 .hdd{
     display: flex;
     align-items: center;
@@ -23,4 +27,45 @@
 .hdd-title{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
+
+.sect-main{
+    display: flex;
+    justify-content: center;
+}
+
+.main-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-tt1{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    outline: auto;
+}
+
+.main-tt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    outline: auto;
+    width: 700px;
+}
+
+.main-col-1{
+    background-color: aqua;
+    height: 350px;
+    width: 700px;
+}
+
+.main-col-2{
+    background-color: blueviolet;
+    height: 350px;
+    width: 700px;
+}
+
