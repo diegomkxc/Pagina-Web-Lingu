@@ -45,7 +45,6 @@
     display: flex;
     width: 700px;
     height: 700px;
-    outline: auto;
 }
 
 .main-tt2{
@@ -53,7 +52,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    outline: auto;
     width: 700px;
 }
 
