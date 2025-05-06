@@ -40,15 +40,20 @@
     align-items: center;
     justify-content: center;
 }
-
+.main-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 .main-tt1{
     display: flex;
+    text-align: center;
+    justify-content: center;
     width: 700px;
-    height: 700px;
 }
 
 .main-tt2{
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -67,3 +72,19 @@
     width: 700px;
 }
 
+.main-col-3{
+    width: 700px;
+    height: 700px;
+}
+
+.bg-img-1{
+    height: 700px;
+}
+
+#logo{
+    height: 70px;
+}
+
+#seccion-1{
+    height: 700px;
+}
