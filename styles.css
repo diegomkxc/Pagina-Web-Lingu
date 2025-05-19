@@ -1,5 +1,31 @@
+body{
+    margin: 0 auto;
+}
+
+
+/*Fuenetes*/
+.all-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-gruesa {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+span{
+    color: #3caccf;
+}
+/*Fin Fuentes*/
+
 .header{
-    height: 800px;
+    background-image: url(images/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 101%;
+    height: 750px;
 }
 
 .hdd{
@@ -14,8 +40,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 60px;
-    width: 600px;
+    font-size: 55px;
+    width: 700px;
 }
 
 .hdd-btn{
@@ -24,67 +50,67 @@
     justify-content: center;
 }
 
+.btn-1{
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
 .hdd-title{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
-.sect-main{
-    display: flex;
-    justify-content: center;
-}
-
-.main-center{
+.title-l{
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-.main-center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.main-tt1{
-    display: flex;
     text-align: center;
-    justify-content: center;
-    width: 700px;
+    font-size: 50px;
 }
 
-.main-tt2{
+.txt-1{
+    padding-top: 20px;
+    font-size: 100%;
+}
+
+.centrao{
+    display: flex;
+    justify-content: center;
+    width: 668px;
+    height: 679px;
+}
+
+.main-1{
+    outline: auto;
+    width: 768px;
+    height: 768px;
+}
+.main-ctr{
+    display: flex;
+    justify-content: center;
+}
+
+.Aerials{
+    display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 700px;
+    justify-content: right;
 }
 
-.main-col-1{
-    background-color: aqua;
-    height: 350px;
-    width: 700px;
-}
-
-.main-col-2{
-    background-color: blueviolet;
-    height: 350px;
-    width: 700px;
-}
-
-.main-col-3{
-    width: 700px;
-    height: 700px;
-}
-
-.bg-img-1{
-    height: 700px;
+.Aerials-2{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    outline: auto;
 }
 
 #logo{
-    height: 70px;
+    padding-left: 100px;
+    padding-top: 50px;
+    height: 60px;
 }
 
-#seccion-1{
-    height: 700px;
+#logo-1{
+    height: 80px;
 }
